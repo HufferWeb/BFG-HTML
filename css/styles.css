@@ -181,6 +181,7 @@ p {
 .jumbo__info {
   margin: 0 auto;
   width: 80%;
+  max-width: 500px;
   background-color: rgb(20, 20, 20, .5);
   position: relative;
   top: 50%;
@@ -285,9 +286,118 @@ p {
 .footer__container p {
   color: #fff;
   font-size: 14px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .copyright {
   margin-top: 50px;
+}
+
+
+/*********MEDIA QUERIES*********/
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #nav-icon {
+    display: none;
+  }
+
+  #menu {
+    display: block;
+    transition: none;
+    height: auto;
+    box-shadow: none;
+  }
+
+  .menu__container {
+    top: 0;
+    transform: none;
+    padding: 0;
+    float: right;
+    background-color: #fff;
+  }
+
+  .menu__container li {
+    display: inline-block;
+    margin: 0 20px 0 0;
+    color: #000;
+  }
+
+  .menu__container li a {
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .menu__container li a:hover {
+    color: #424242;
+  }
+
+  .logo {
+    width: 197px;
+    margin-bottom: 0;
+  }
+
+
+
+/**
+   .menu__container li {
+        margin: 30px 0px 30px 0px;
+        text-align: center;
+      display:block;
+        
+    }
+
+.menu__container li a {
+    text-decoration: none;
+    color: #fff;
+  font-family: 'open sans', san-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.menu__container {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px 30px;
+}
+
+.menu__container li a:hover {
+  color: rgb(255, 255, 255, .5);
+}
+
+.logo {
+  background-image: url('../images/logo-mobile.png');
+  background-repeat:no-repeat;
+  background-size: auto;
+  background-position: center;
+  width: auto;
+  height: 70px;
+  margin-bottom: 20px;
+}
+
+.logoActive {
+  display: none;
+}
+
+
+
+**/
+
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
 }

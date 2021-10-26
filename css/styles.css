@@ -316,7 +316,7 @@ p {
 
 .cir__container {
   margin: 60px auto;
-  width: 75%;
+  width: 100%;
   border: solid 5px #16384f;
   max-width: 450px;
   padding: 180px 0;
@@ -347,7 +347,7 @@ p {
 
 .wealthscape__container {
   margin: 60px auto;
-  width: 75%;
+  width: 100%;
   border: solid 5px #16384f;
   max-width: 450px;
   padding: 180px 0;

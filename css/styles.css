@@ -294,6 +294,89 @@ p {
 }
 
 
+
+
+
+/*****TEAM PAGE*****/
+
+
+
+
+/******CLIENT ACCOUNT ACCESS*****/
+
+.client-page {
+  padding: 0 10%;
+}
+
+.client-page h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.cir__container {
+  margin: 60px auto;
+  width: 75%;
+  border: solid 5px #16384f;
+  max-width: 450px;
+  padding: 180px 0;
+}
+
+.cir__container h2 {
+  text-align: center;
+  font-size: 28px;
+  color: rgb(22, 56, 79, .75);
+  margin-bottom: 20px;
+}
+
+.cir__container button {
+  color: #fff;
+  font-weight: 700;
+  background: #16384f;
+  padding: 20px 35px;
+  text-decoration: none;
+  display: block;
+  transition: .35s;
+  cursor: pointer;
+  border-radius: 3px;
+  border: none;
+  margin: 0 auto;
+  z-index: 220;
+  font-size: 18px;
+}
+
+.wealthscape__container {
+  margin: 60px auto;
+  width: 75%;
+  border: solid 5px #16384f;
+  max-width: 450px;
+  padding: 180px 0;
+}
+
+.wealthscape__container h2 {
+  text-align: center;
+  font-size: 28px;
+  color: rgb(22, 56, 79, .75);
+  margin-bottom: 20px;
+}
+
+.wealthscape__container button {
+  color: #fff;
+  font-weight: 700;
+  background: #16384f;
+  padding: 20px 35px;
+  text-decoration: none;
+  display: block;
+  transition: .35s;
+  cursor: pointer;
+  border-radius: 3px;
+  border: none;
+  margin: 0 auto;
+  z-index: 220;
+  font-size: 18px;
+}
+
+
 /*********MEDIA QUERIES*********/
 
 

@@ -327,7 +327,6 @@ p {
 .client-page h1 {
   font-size: 40px;
   text-align: center;
-  margin-top: 40px;
   color: #fff;
   padding: 30px 20px;
   background-color: #16384f;
@@ -375,17 +374,146 @@ p {
 }
 
 
+/********************contact***********************/
+
+.contact-page h1 {
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    padding: 30px 20px;
+    background-color: #16384f;
+}
+
+.grid__container {
+  width: 50%;
+  margin: 120px auto;
+  display: grid; 
+  grid-auto-columns: 1fr 1fr; 
+  grid-auto-rows: 1fr 1fr; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    ". ."; 
+
+
+}
+
+.contact__form {
+  padding: 60px 10%;
+  border-top: solid 6px #16384f;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 100%;
+  max-width: 275px;
+  font-size: 18px;
+  margin: 30px auto;
+}
+
+.contact__form #name {
+  height: 40px;
+  width: 100%;
+  display: block;
+  margin-bottom: 8px;
+  border: none;
+  background-color: #f3f3f3;
+
+}
+#name::placeholder {
+  color: #2d4b60;
+  opacity: .7;
+  font-size: 14px;
+  padding-left: 6px;
+
+}
+
+.contact__form #email {
+  height: 40px;
+  width: 100%;
+  display: block;
+  margin-bottom: 8px;
+  border: none;
+  background-color: #f3f3f3;
+
+}
+#email::placeholder {
+  color: #2d4b60;
+  opacity: .7;
+  font-size: 14px;
+  padding-left: 6px;
+
+}
+
+.contact__form #message{
+  height: 120px;
+  width: 100%;
+  display: block;
+  margin-bottom: 14px;
+  padding-left: 6px;
+  font-family: 'Inter', sans-serif;
+  padding-top: 6px;
+  border: none;
+  background-color: #f3f3f3;
 
 
 
 
+}
+#message::placeholder {
+  color: #2d4b60;
+  opacity: .7;
+  font-size: 14px;
+}
+
+.contact__form #submit {
+  color: #fff;
+  background: #16384f;
+  height: 40px;
+  width: 80px;
+  display: block;
+  font-weight: 700;
+  text-decoration: none;
+  transition: .35s;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+}
+
+.contact__container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 100%;
+}
+
+.contact__container h3 {
+  font-size: 16px;
+}
+
+.contact__container p {
+  margin-top: 5px;
+  font-size: 13px;
+  line-height: 20px;
+
+}
+
+.contact__container div {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-left: solid 6px #16384f;
+  padding: 25px 20px;
+  margin-top: 10px;
+  width: 275px;
+  justify-self: center;
+}
 
 
-/*********MEDIA QUERIES*********/
+
+/**********************************************/
+/**********************************************/
+/*********MEDIA QUERIES*************************/
+/**********************************************/
+/**********************************************/
 
 
-
-/* Medium devices (landscape tablets, 768px and up) */
+/* Medium devices (landscape tablets, 768px and up)*************************/
 @media only screen and (min-width: 768px) {
 
 
@@ -394,12 +522,7 @@ p {
 
 
 
-
-
-
-
-
-/* Large devices (laptops/desktops, 992px and up) */
+/* Large devices (laptops/desktops, 992px and up)***************************/
 @media only screen and (min-width: 992px) {
 
   .flex__nav {
